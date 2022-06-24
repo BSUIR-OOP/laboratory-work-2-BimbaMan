@@ -27,7 +27,7 @@ namespace lab2.Figures
                  (int)(point1.Y)
              )
         { }
-        public override string FigureName() { return "Параллелограм"; }
+        
      
     }
 }

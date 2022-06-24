@@ -43,14 +43,6 @@ namespace lab2.Figures
        )
         { }
 
-        public override string FigureName() { return "Треугольник"; }
-        public override void ShowFigure()
-        {
-            Console.WriteLine(
-                $"Это {FigureName()} " +
-                $"с координатами({x1},{y1}),({x2},{y2}),({x3},{y3}) \n");
-            Console.WriteLine();
-        }
         public override void drawCanvas(Canvas canvas)
         {
             var myLine = drawLine(x1, x2, y1, y2);

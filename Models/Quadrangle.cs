@@ -45,17 +45,6 @@ namespace lab2.Figures
        )
         { }
 
-        public override string FigureName() { return "Четырёхугольник"; }
-        public override void ShowFigure()
-        {
-            Console.WriteLine(
-               $"{FigureName()} " +
-               $"\nКоординаты вершин: " +
-               $"\nА=({x1},{y1}), " +
-               $"\nB=({x2},{y2}), " +
-               $"\nC=({x3},{y3})," +
-               $"\nD=({x4},{y4}). \n\n");
-        }
 
         public override void drawCanvas(Canvas canvas)
         {

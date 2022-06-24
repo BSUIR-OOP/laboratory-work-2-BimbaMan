@@ -27,18 +27,7 @@ namespace lab2.Figures
                   (int)(point2.Y)
               )
         { }
-        public override string FigureName() { return "Прямоугольник"; }
-
-        public override void ShowFigure()
-        {
-            Console.WriteLine(
-                 $"{FigureName()}\n" +
-                 $"Координаты вершин:\n" +
-                 $"A = ({this.x1},{this.y1}),\n" +
-                 $"B = ({this.x2},{this.y1}),\n" +
-                 $"C = ({this.x2},{this.y2}) \n" +
-                 $"D = ({this.x1},{this.y2}) \n\n");
-        }
+        
     }
 }
 

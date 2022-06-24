@@ -34,7 +34,6 @@ namespace lab2.Figures
         )
         { }
 
-        public override string FigureName() { return "эллипс"; }
 
         public override void drawCanvas(Canvas canvas)
         {
@@ -48,13 +47,6 @@ namespace lab2.Figures
             circl.StrokeThickness = 3;
             canvas.Children.Add(circl);
         }
-        public override void ShowFigure()
-        {
-            Console.WriteLine(
-               $"{FigureName()}\n" +
-               $"Центр в точке ({x},{y}); \n" +
-               $"Большая полуось: {mainAxis}; \n" +
-               $"Малая полуось:{additionalAxis}. \n\n");
-        }
+        
     }
 }

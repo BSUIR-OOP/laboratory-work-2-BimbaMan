@@ -24,12 +24,6 @@ namespace lab2.Figures
         )
         { 
         }
-        public override string FigureName() { return "Окружность"; }
-        public override void ShowFigure()
-        {
-            Console.WriteLine($"{FigureName()}\n" +
-                $"Центр в точке ({x},{y}) \n" +
-                $"Радиус = {radius} \n\n");
-        }
+        
     }
 }

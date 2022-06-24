@@ -11,8 +11,6 @@ namespace lab2.Figures
 {
     public abstract class BaseFigure
     {
-        public abstract string FigureName();
-        public abstract void ShowFigure();
         public abstract void drawCanvas(Canvas canvas);
 
         public static System.Windows.Shapes.Line drawLine(int x1, int x2, int y1, int y2)
